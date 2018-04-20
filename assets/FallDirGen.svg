@@ -1,0 +1,49 @@
+<svg width="1012" height="1024" viewBox="0 0 1012 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Frame</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(297 2)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -297 -2L 715 -2L 715 1022L -297 1022L -297 -2Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Frame" clip-path="url(#clip-0)">
+<g id="Group">
+<g id="Ellipse" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(-245 56)" fill="#2D9CDB"/>
+</g>
+<clipPath id="clip-1" clip-rule="evenodd">
+<path d="M -141 160L 559 160L 559 860L -141 860L -141 160Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Frame" clip-path="url(#clip-1)">
+<g id="ic_folder_black_24px">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(-110.163 221.674)" fill="#F2994A"/>
+</g>
+</g>
+<g id="ic_create_new_folder_black_24px">
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(219.793 553.172)" fill="#F2994A"/>
+</g>
+</g>
+<g id="Arrow">
+<use xlink:href="#path3_stroke" transform="matrix(0.743449 0.668793 -0.668793 0.743449 285.55 272.01)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-265" y="40" width="948" height="948" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 908 454C 908 704.737 704.737 908 454 908C 203.263 908 0 704.737 0 454C 0 203.263 203.263 0 454 0C 704.737 0 908 203.263 908 454Z"/>
+<path id="path1_fill" d="M 123.348 0L 30.837 0C 13.8767 0 0.154185 13.8767 0.154185 30.837L 0 215.859C 0 232.819 13.8767 246.696 30.837 246.696L 277.533 246.696C 294.493 246.696 308.37 232.819 308.37 215.859L 308.37 61.674C 308.37 44.7137 294.493 30.837 277.533 30.837L 154.185 30.837L 123.348 0Z"/>
+<path id="path2_fill" d="M 277.533 30.837L 154.185 30.837L 123.348 0L 30.837 0C 13.7225 0 0.154185 13.7225 0.154185 30.837L 0 215.859C 0 232.974 13.7225 246.696 30.837 246.696L 277.533 246.696C 294.648 246.696 308.37 232.974 308.37 215.859L 308.37 61.674C 308.37 44.5595 294.648 30.837 277.533 30.837ZM 262.115 154.185L 215.859 154.185L 215.859 200.44L 185.022 200.44L 185.022 154.185L 138.767 154.185L 138.767 123.348L 185.022 123.348L 185.022 77.0925L 215.859 77.0925L 215.859 123.348L 262.115 123.348L 262.115 154.185Z"/>
+<path id="path3_stroke" d="M -7.99874 91.1681C -11.3134 95.5857 -10.4193 101.854 -6.00168 105.169C -1.58409 108.483 4.68411 107.589 7.99874 103.171L -7.99874 91.1681ZM 246.39 107.065C 251.855 107.862 256.931 104.078 257.728 98.613L 270.717 9.55524C 271.514 4.09021 267.73 -0.986216 262.265 -1.78328C 256.8 -2.58034 251.724 1.2038 250.926 6.66883L 239.381 85.8313L 160.218 74.2857C 154.753 73.4886 149.677 77.2727 148.88 82.7378C 148.083 88.2028 151.867 93.2792 157.332 94.0763L 246.39 107.065ZM 7.99874 103.171C 32.8286 70.0795 54.3583 46.365 73.9416 31.0973C 93.4459 15.8911 110.305 9.61052 126.086 10.0187C 141.92 10.4283 158.498 17.6165 177.323 33.1254C 196.195 48.6719 216.564 71.9551 239.815 103.146L 255.85 91.1933C 232.279 59.5717 210.773 34.7691 190.04 17.689C 169.262 0.571227 148.507 -9.40802 126.603 -9.9746C 104.646 -10.5425 83.363 -1.60798 61.6446 15.3244C 40.005 32.1953 17.2313 57.5427 -7.99874 91.1681L 7.99874 103.171Z"/>
+</defs>
+</svg>

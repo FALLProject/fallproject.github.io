@@ -13,8 +13,6 @@
 			<h1>Fall Project Open Source</h1>
 		</header>
 		<main id="app">
-			<div class="section">
-			</div>
 			<div class="section projects">
 				<div v-for="card in cards" class="card" :style="{color: card.color, backgroundImage: card.background, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}" key="card">
 					<h1 class="cardTitle">
@@ -28,7 +26,6 @@
 					<p class="cardText"> {{ card.text }} </p>
 				</div>
 			</div>
-			<div class="section"></div>
 		</main>
 		<script>
 			var app = new Vue({
