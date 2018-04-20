@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import appView from './components/app.vue'
 
+
 Vue.config.devtools = true
 var app = new Vue({
 	el: '.app',

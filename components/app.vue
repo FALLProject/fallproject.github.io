@@ -13,7 +13,7 @@
 					<a href="">Docs</a>
 					<a href="">
 						<svg class="textIcon">
-							<use xlink:href="../assets/icons.svg#github"/>
+							<use xlink:href="/assets/icons.svg#github"/>
 						</svg>
 						GitHub
 					</a>
