@@ -4,11 +4,12 @@
 			<nav class="nav">
 				<a class="navLogo" href="/">fall <span>project</span></a>
 				<button class="toggleMenu textIcon" @click="revert">
-					<svg class="textIcon">
-						<use xlink:href="../assets/icons.svg#menu"/>
+					<svg class="textIcon" >
+						<use v-if="showMenu == false" xlink:href="../assets/icons.svg#menu"/>
+						<use v-if="showMenu == true" xlink:href="../assets/icons.svg#close"/>
 					</svg>
-				</button>
-				<nav class="links" v-show="showMenu">
+				</button>	
+				<nav class="links" v-show="showMenu" @click="revert">
 					<a href="">About</a>
 					<a href="">Docs</a>
 					<a href="">
@@ -19,17 +20,15 @@
 					</a>
 				</nav>
 			</nav>
-			<div>
-				<nav class="buttons">
-					<a href="" class="button">
-						<svg class="buttonIcon">
-							<use xlink:href="/assets/icons.svg#github" />
-						</svg>
-						GitHub
-					</a>
-					<a href="" class="button">Contact</a>
-				</nav>
-			</div>
+			<nav class="buttons">
+				<a href="" class="button">
+					<svg class="buttonIcon">
+						<use xlink:href="/assets/icons.svg#github" />
+					</svg>
+					GitHub
+				</a>
+				<a href="" class="button">Contact</a>
+			</nav>
 		</header>
 		<div class="section projects">
 			<card v-for="card in vData.cards" :dat="card" :key="card.title"></card>
