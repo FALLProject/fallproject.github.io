@@ -30,12 +30,6 @@ header
 	// background-image: url("https://images.unsplash.com/photo-1484557052118-f32bd25b45b5"), url("https://images.unsplash.com/photo-1483058712412-4245e9b90334") center
 
 header>div
-	width: 50%
-	margin: 0
-	position: relative
-	top: 75%
-	left: 50%
-	transform: translate(-50%, -75%)
 	&>h1, &>h2
 		text-align: center
 		&>a
@@ -84,6 +78,8 @@ header>div
 	display: inline-block
 
 .buttons
+	top: 60%
+	position: relative
 	margin: 20px
 	display: grid
 	grid-template-columns: repeat(2, 150px)
@@ -133,25 +129,25 @@ header>div
 		.toggleMenu
 			display: inline-block
 			float: right
-			svg 
+			svg
 				display: inline-block
 		.links
-			padding: 25px
+			top: 50px
+			padding: 25px 0
 			clear: both
 			float: none
 			display: grid
 			grid-auto-rows: 50px
+			grid-template-columns: 100%
 			justify-content: center
 			background-color: white
-			height: 100%
 			margin: 0
 			position: absolute
+			min-height: calc(100% - 100px)
 			width: 100%
 			z-index: 2
-			top: 45px
+			overflow-x: hidden
 			a
 				display: block
 				padding: 7.5px
 				width: 100%
-*[hidden="true"]
-	display: none
