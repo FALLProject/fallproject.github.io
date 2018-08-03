@@ -23,16 +23,21 @@
 			<nav class="buttons">
 				<a href="" class="button">
 					<svg class="buttonIcon">
-						<use xlink:href="/assets/icons.svg#github" />
+						<use xlink:href="/assets/icons.svg#github"/>
 					</svg>
 					GitHub
 				</a>
 				<a href="" class="button">Contact</a>
 			</nav>
 		</header>
-		<div class="section projects">
+		<section class="grid">
+		<div class="section services">
+			<card v-for="service in services" :dat="service" :key="service.title"></card>
+		</div>
+		<div class="section projects" hidden>
 			<card v-for="card in vData.cards" :dat="card" :key="card.title"></card>
 		</div>
+		</section>
 	</main>
 </template>
 
@@ -45,12 +50,30 @@
 			vData: Object
 		},
 		methods: {
-			revert: function() { this.showMenu = !this.showMenu; }
+			revert() {this.showMenu = !this.showMenu;}
 		},
 		data: function() {
 			return {
-				showMenu: true, 
-				innerWidth: window.innerWidth
+				showMenu: true,
+				innerWidth: window.innerWidth,
+				services: [
+					{
+						title: "Design",
+						text: "Branding, Mobile, and Web Design",
+						links: [],
+						background: 'assets/design_graphic.svg',
+						square: true,
+						weight: 'bold'
+					},
+					{
+						title: "Coding",
+						text: "Web and Backend",
+						links: [],
+						background: 'assets/undraw_coding.svg',
+						square: true,
+						weight: 'bold'
+					}
+				]
 			}
 		},
 		created() {
@@ -58,7 +81,7 @@
 		},
 		components: { card },
 		watch: {
-			innerWidth: () => {menu()}
+			innerWidth: () => {this.showMenu = menu()}
 		}
 	}
 </script>

@@ -8,8 +8,8 @@ var app = new Vue({
 	template: `<appView :vData="$data"/>`,
 	data: {
 		cards: [
-			{ title: 'FallView', text: "a lightweight vue alternative", links: [{ url: 'https://github.com/SimplyCodin/FallView/tree/POC', icon: 'github' }], background: 'url("assets/FallView.svg")' },
-			{ title: 'FallDirGen', text: "a file scaffolding engine", links: [{ url: 'https://github.com/FALLProject/FallDirGen', icon: 'github' }], background: 'url("assets/FallDirGen.svg")' }
+			{ title: 'FallView', text: "a lightweight vue alternative", links: [{ url: 'https://github.com/SimplyCodin/FallView/tree/POC', icon: 'github' }], background: 'assets/FallView.svg' },
+			{ title: 'FallDirGen', text: "a file scaffolding engine", links: [{ url: 'https://github.com/FALLProject/FallDirGen', icon: 'github' }], background: 'assets/FallDirGen.svg' }
 		]
 	},
 	components: { appView }
