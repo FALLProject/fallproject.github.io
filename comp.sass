@@ -9,14 +9,24 @@ html, body, main
 	top: 0
 	font-family: 'Rubik'
 
-.projects
+.grid
 	padding: 20px
 	display: grid
+	grid-template-areas: 320px 180px
 	grid-template-columns: repeat(auto-fit, 320px)
 	grid-gap: 20px
-	grid-auto-rows: 180px
 	justify-content: center
 	background-color: #efefef
+
+.projects, .services
+	display: grid
+	grid-gap: 20px
+	justify-content: center
+
+.services
+	grid-template-rows: 320px
+	grid-template-columns: repeat(auto-fit, 320px)
+	overflow-x: scroll
 
 header
 	height: 45%
@@ -47,6 +57,9 @@ header>div
 	position: relative
 	background-size: cover
 	color: black
+
+.cardSquare
+	height: 320px
 
 .cardTitle
 	margin: 0
@@ -137,7 +150,7 @@ header>div
 			clear: both
 			float: none
 			display: grid
-			grid-auto-rows: 50px
+			grid-template-rows: repeat(auto-fill,50px)
 			grid-template-columns: 100%
 			justify-content: center
 			background-color: white
